@@ -1,0 +1,136 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+
+.slide{
+  background-image: url(./../public/images/design.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.head{
+  position: relative;
+  top: 9px;
+  display: flex;
+  justify-content: space-around;
+  gap: 900px;
+  align-items: center;
+  
+  font-size: 25px;
+  color: white;
+}
+.btn{
+  
+  font-size: 17px;
+  background-color: transparent;
+  color: white; 
+  cursor: pointer;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+.btn:hover{
+  background-color:#029D95
+}
+.left {
+  
+  /* border: 1px solid red */
+}
+.left h1{
+  color:white;
+  font-size: 85px;
+  
+}
+.left h5{
+  color:white
+}
+.left p {
+  color: whitesmoke;
+}
+.btn2{
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  border: 1px solid white;
+  padding: 8px;
+  
+}
+.center{
+  position: relative;
+  top: 65px;
+  
+  display: flex;
+  gap: 555px;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.right h2{
+  color: white;
+}
+.border{
+   
+  position: relative;
+  left:190px;
+  top: 150px;
+  width: 1200px;
+}
+ul{
+  color: white;
+  display: flex;
+  gap: 190px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
